@@ -317,6 +317,22 @@ export const experience: TimelineItem[] = [
 
 ];
 
+export const publication: TimelineItem[] = [
+  {
+    date: 'Submitted on 24 May 2023',
+    location: ' ',
+    title: 'A Causal View of Entity Bias in (Large) Language Models',
+    content: (
+      <>
+      <p>Fei Wang, Wenjie Mo, Yiwei Wang, Wenxuan Zhou, and Muhao Chen</p>
+      <a href="https://arxiv.org/abs/2305.14695">Click here to check this paper on ARXIV</a>
+      </>
+      
+    ),
+  },
+
+];
+
 /**
  * Testimonial section
  */
