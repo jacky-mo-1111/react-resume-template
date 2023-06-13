@@ -1,7 +1,7 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
+  // BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
@@ -9,22 +9,22 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -39,6 +39,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+// import { P } from 'ts-pattern';
 
 /**
  * Page meta data
@@ -69,18 +70,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Jacky Mo.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Welcome! I study Computer Science at <strong className="text-stone-100">USC</strong>. 
+        With a particular interest in Full Stack Development and Natural Language Processing, I'm always eager to explore and innovate. 
+        Currently, I am at <strong className="text-stone-100"><a href="https://luka-group.github.io/">LUKA Lab</a></strong>,
+        working on entity bias and backdoor attacks.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my freetime, I love playing basketball/football or exploring the world in Legend of Zelda: Tears of the Kingdom. 
       </p>
     </>
   ),
@@ -104,16 +104,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Fluent in a variety of programming languages including Java, Python, JavaScript, 
+  and C++, my true love lies with C++. Exploring and innovating are more than just hobbies - 
+  they're a way of life. Here's a snapshot of me with my beloved cat!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Los Angeles, CA', Icon: MapIcon},
+    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Football, Work Out, Video Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of California', Icon: AcademicCapIcon},
+    // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,12 +129,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Chinese',
+        level: 10,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Cantonese',
+        level: 10,
       },
     ],
   },
@@ -147,10 +147,10 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 5,
       },
       {
-        name: 'GraphQL',
+        name: 'Flutter',
         level: 6,
       },
     ],
@@ -160,32 +160,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Java',
+        level: 7,
       },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+      // {
+      //   name: 'Golang',
+      //   level: 4,
+      // },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'NLP and Deep Learning Related',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'PyTorch',
+        level: 6,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'HuggingFace',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Transformers',
+        level: 7,
       },
     ],
   },
@@ -196,71 +196,73 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Mubu - The Worry-Relieving Companion',
+    description: 'A meticulously crafted application powered by Flutter (alredy on App Store). Designed to act as your personal sentiment tracker, it records and analyzes your emotional patterns, providing insightful perspectives on your mental well-being. Mubu‘s specially curated series of exercises guide you on a path towards relaxation and focus, acting as a supportive tool for mental health management. While not a replacement for professional help, Mubu offers strategies that could help alleviate everyday stresses, bolster concentration, and contribute to overall mental resilience.',
+    url: 'https://apps.apple.com/us/app/%E6%9C%A8%E4%B8%8D-%E8%A7%A3%E5%BF%A7%E4%BC%B4%E4%BE%A3/id1597427913',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Movie Search',
+    description: 'A user-centric movie search engine, designed and built to streamline the movie discovery and organization process. It leverages the TMDB movie API for fetching real-time data and SQL for robust database management. The platform’s intuitive user interface and personalized movie recommendations, shaped by user history, create an engaging user experience. Unique montages are generated from user movie lists, adding a visual appeal.',
+    url: 'https://github.com/jacky-mo-1111/Movie_Search',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Battling Food Waste with Data Science',
+    description: 'This is a project I did from GRIDS Hackthon. We use XGBoost model to train on data of grocery consumption, then analyzing the source of food waste.',
+    url: '/assets/JSS_PPT_FInal.pdf',
+    image: porfolioImage1,
+  },
+  
+  
+  {
+    title: 'Trojan Scheduler',
+    description: 'A web app to help USC student to select GE classes based on their schedules and professors‘ rating on Rate My Professor',
+    url: 'https://github.com/jacky-mo-1111/trojan_scheduler',
     image: porfolioImage4,
   },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -268,42 +270,51 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2020 - May 2024',
+    location: 'University of Southern California',
+    title: 'Bachelor in Computer Science',
+    content: (
+      <>
+        <p>GPA: 3.8/4.0</p>
+        <p>USC Dean's List 2020, 2021, 2022 (top 10%)</p>
+        <p>CURVE Undergraduate Research Fellowship (top 2%), on Natural Language Processing (NLP)</p>
+        <p>Coursework: Software Engineering, Algorithm and Theory of Computing, Data Structure and Object Oriented Design, Artificial Intelligence, Computer System</p>
+      </>
+      
+    ),
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2022 - August 2022',
+    location: 'Shanghai Sheyuan Network Technology',
+    title: 'Software Engineer Intern',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <>
+        <p>
+          Worked on mobile full-stack development on Mubu, an app for collecting and analyzing user 
+          sentiment data from users' dairy; consultation 
+          and suggestions for users will be presented by a visual cartoon character-Mubu.
+        </p>
+        <p>
+          Developed visualization and explanation of the result of NLP model in 
+          front-end using Flutter in Android Studio.
+        </p>
+        <p>
+        Integrated a trained sentiment-analysis model from HuggingFace for predicting users'
+         emotions with Pytorch; developed a feature to improve users' 
+         mental health based on sentence-to-sentence analysis of users' diaries.
+        </p>
+        <p>
+        Helped to publish the mobile app in the Apple store and has received hundreds of installations nationwide.
+        </p>
+      </>
+      
     ),
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+
 ];
 
 /**
@@ -336,27 +347,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Do not hesitate to contact me!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'jackymo@usc.edu',
+      href: 'mailto:jackymo@usc.edu',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Los Angeles, United States',
+      href: 'https://www.google.ca/maps/place/%E7%BE%8E%E5%9C%8B%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9E%E6%B4%9B%E6%9D%89%E7%A3%AF/@34.0206085,-118.7413834,10z/data=!3m1!4b1!4m6!3m5!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0522342!4d-118.2436849!16s%2Fm%2F030qb3t?entry=ttu',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'jacky-mo-1111',
+      href: 'https://github.com/jacky-mo-1111',
     },
   ],
 };
@@ -365,9 +376,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/jacky-mo-1111'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jacky-mo-b5827a213/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
