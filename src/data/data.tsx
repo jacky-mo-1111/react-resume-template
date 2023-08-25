@@ -45,7 +45,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: "Jacky Mo's Homepage",
   description: "Example site built with Tim Baker's react resume template",
 };
 
@@ -76,7 +76,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Welcome! I study Computer Science at <strong className="text-stone-100">USC</strong>. 
         With a particular interest in Full Stack Development and Natural Language Processing, I'm always eager to explore and innovate. 
-        Currently, I am at <strong className="text-stone-100"><a href="https://luka-group.github.io/">LUKA Lab</a></strong>,
+        Currently, I am at <strong className="text-stone-100"><a href="https://luka-group.github.io/">LUKA Lab</a></strong> and <strong className="text-stone-100"><a href="https://dill-lab.github.io/">DILL Lab</a></strong>,
         working on entity bias and backdoor attacks.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -106,7 +106,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Fluent in a variety of programming languages including Java, Python, JavaScript, 
   and C++, my true love lies with C++. Exploring and innovating are more than just hobbies - 
-  they're a way of life. Here's a snapshot of me with my beloved cat!`,
+  they're a way of life. Here's a snapshot of me!`,
   aboutItems: [
     {label: 'Location', text: 'Los Angeles, CA', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
